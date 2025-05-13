@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Custom Lightbox</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="gallery">
+    <img src="images/thumb1.jpg" alt="Image 1" data-full="images/full1.jpg">
+    <img src="images/thumb2.jpg" alt="Image 2" data-full="images/full2.jpg">
+  </div>
+
+  <!-- Lightbox container -->
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-img" src="" alt="Expanded Image">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
